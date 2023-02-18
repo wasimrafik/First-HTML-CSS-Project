@@ -1,0 +1,757 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+    width: 100%;
+}
+
+.nav1{
+    border: 2px solid #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+    line-height: 27px;
+    padding: 8px 0px;
+    background-color: #f0f0f0;
+}
+
+.nav1 p{
+    padding-right: 200px;
+}
+.nav2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    line-height: 2.14;
+    font-weight: bolder;
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+
+.nav2 ul li{
+    display: inline-block; 
+}
+.nav2 ul li a:hover{
+    color: #6a572f;
+    transition: all .5s;
+}
+.nav2 ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+}
+.nav2 i{
+    visibility: hidden;
+}
+.nav2 img{
+    padding-left: 110px;
+}
+.nav2 ul{
+    padding-right: 110px;
+}
+
+.nav2 button{
+    background-color: #b0914f;
+    color: white;
+    padding: 13px 20px;
+    font-weight: bolder;
+    border: none;
+}
+.nav2 button:hover{
+    background-color: #6a572f;
+    transition: all .5s;
+}
+.sec1-img{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.467)), url(../Images/Aboutus/background.jpg);
+    text-align: center;
+}
+.sec1-img h1{
+    padding: 120px 0px 90px;
+    font-size: 40px;
+    color: #f0f0f0;
+}
+.sec1-img a{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sec1-img .link{
+    color: #f0f0f0;
+    font-size: 15px;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
+.section2{
+    margin: 100px 200px;  
+    display: flex;
+    
+}
+.sec2-1 h2{
+    margin: 10px 0;
+    font-size: 28px;
+}
+.sec2-1 h3{
+    margin: 5px 0;
+    font-size: 18px;
+}
+.sec2-1 .amt{
+    font-size: 36px;
+    padding: 0 0 0 5px;
+    color: #b0914f;
+}
+.sec2-1 .small{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.sec2-11{
+    position: relative;
+}
+.sec2-1 .btn button{
+    
+    background-color: #b0914f;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    width: 155px;
+    height: 48.6px;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 986px;
+    left: 723px;
+}
+.sec2-1 .btn button:hover{
+        background-color: #6a572f;
+        transition: all .5s;
+    }
+
+.sec2-2-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    text-align: justify;
+    justify-content: left;
+    margin: 10px 20px;
+}
+.sec2-2-1 i{
+    margin: 10px 17px;
+    text-align: justify;
+    padding: 0 20px;
+}
+.sec2-2-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    justify-content: left;
+}
+.sec2-2-2 i{
+    margin: 10px 20px;
+    text-align: justify;
+    padding: 0 20px;
+}
+.sec2-2-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    justify-content: left;
+}
+.sec2-2-3 i{
+    margin: 10px 20px;
+    text-align: justify;
+    padding: 0 20px;
+}
+.sec2-2-4{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    justify-content: left;
+}
+.sec2-2-4 i{
+    margin: 10px 20px;
+    text-align: justify;
+    padding: 0 20px;
+}
+.section3{
+    display: flex;
+    width: 350px;
+    height: 900px;
+    border: 2px solid gray;
+    background-color: #595959;
+    position: absolute;
+    top: 540px;
+    left: 900px;
+    padding: 50px;
+    color: #f0f0f0;
+}
+.sec3-2 h3{
+    margin: 0 0 8px;
+    padding: 8px 80px;
+}
+.sec3-2 h6{
+    margin: 0 0 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.sec3-2 .input{
+    width: 286px;
+    height: 35px;
+    margin: 0 0 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.sec3-2 select{
+    width: 310px;
+    height: 45px;
+    margin: 0 0 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+/* .checkbox label{
+    display: flex;
+    flex-direction:row-reverse;
+} */
+#range{
+    width: 200px;
+    display: flex;
+    margin: 0 10px 8px;
+    padding: 20px 10px;
+}
+#range label{
+    width: 200px;
+    display: flex;
+    margin: 0 10px 8px;
+    padding: 20px 10px;
+}
+input{
+    display: inline-block;
+}
+label{
+    display: inline-block;
+}
+.checkbox button{
+    background-color: #b0914f;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    width: 286px;
+    height: 48.6px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.checkbox button:hover{
+    background-color: #6a572f;
+    transition: all .5s;
+}
+.section4{
+    margin: 0px 200px;
+    width: 680px;
+}
+.section4 h4{
+    margin: 0 0 16px;
+}
+.section5{
+    margin: 30px 180px;
+}
+.sec5-1{
+    display: flex;
+    width: 682px;
+    margin: 20px;
+}
+.sec5-1 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border:2px solid #b0914f;
+    margin-right: 20px;
+}
+h3 span{
+    font-weight: lighter;
+    font-size: 14px;
+}
+.sec5-2{
+    display: flex;
+    width: 682px;
+    margin: 20px;
+    margin-top: 70px;
+}
+.sec5-2 img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border:2px solid #b0914f;
+    margin-right: 20px;
+}
+hr{
+    width: 682px;
+}
+.sec5-3{
+    width: 682px;
+    height: 500px;
+    margin-top: 50px;
+}
+.sec5-3 h4{
+    margin-bottom: 30px;
+}
+#name{
+    width: 635px;
+    height: 35px;
+    padding: 6px 12px;
+    margin-bottom: 16px;
+}
+#Email{
+    width: 635px;
+    height: 35px;
+    padding: 6px 12px; 
+    margin-bottom: 16px;
+}
+#message{
+    width: 635px;
+    height: 100px;
+    padding: 6px 12px; 
+    margin-bottom: 16px;
+}
+button{
+    width: 163px;
+    height: 48px;
+    background-color: #b0914f;
+    color: #f0f0f0;
+    border: transparent;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: #6a572f;
+    transition: all .5s;
+}
+
+form input{
+    border: 1px solid rgba(128, 128, 128, 0.579);
+}
+
+
+/* footer start here  */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding:60px 0px 0px;
+    margin: 0 135px;
+}
+
+.footertxt{
+    width: 255px;
+    height: 192px;
+}
+.footertxt h1{
+    margin: 0 0 8px;
+}
+.Footeradd{
+    width: 255px;
+    height: 194.8px;
+    text-align: center;
+    text-align: justify;
+    margin: 0 0 10px;
+    
+}
+.Footeradd h1{
+    margin: 0 0 24px;
+    
+}
+.Footeradd i{
+    color: #b0914f;
+    text-align: justify;
+    margin: 0px 8px 10px 0;
+}
+.footerquick{
+    width: 255px;
+    height: 223px;
+}
+.footerquick h1{
+    margin: 0 0 24px;
+}
+.footerquick li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #595959;
+}
+.footerquick li a:hover{
+    color: #b0914f;
+}
+.footerquick li{
+    list-style-type: none;
+    margin: 0 0 10px;
+    
+}
+.footercompany h1{
+    margin: 0 0 24px;
+}
+.footercompany a{
+    text-decoration: none;
+    color: #595959;
+}
+.footercompany a:hover{
+    color: #b0914f;
+}
+.footercompany li{
+    list-style-type: none;
+    margin: 0 0 10px;
+}
+.footercompany i{
+    color: #b0914f;
+}
+.copy{
+    width: 1425px;
+    height: 76px;
+    border-top: 1px solid #f9f9f9;
+    text-align: center;
+    padding: 24px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 325px){
+    
+    .sec1-img h1{
+        padding: 120px 0px 90px;
+        font-size: 40px;
+        color: #f0f0f0;
+    }
+    .sec1-img a{
+        color: #f0f0f0;
+        text-decoration: none;
+    }
+    .sec1-img .link{
+        color: #f0f0f0;
+        font-size: 15px;
+        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+    }
+    .section2{
+        width: 300px;
+        margin: 0px;
+    }
+    .sec2-11 {
+       margin-left: -10px;
+    }
+    .sec2-1{
+        width: 290px;
+    }
+    .sec2-1 img{
+        width: 250px;
+        margin-left: 0px;
+        margin: 0 30px;
+       }
+       .sec2-1 h2 {
+        width: 290px;
+        margin: 0 30px;
+        font-size: 28px;
+        }
+
+        .sec2-1 h3{
+            margin: 0px;
+            width: 290px;
+            margin: 0 30px;
+            font-size: 16px;
+        }
+    .sec2-1 .btn button{
+        margin-left: -700px;
+        margin-top: -225px;
+       
+    }
+    
+    .sec2-2-1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+      margin-top: 60px;
+    
+    }
+    .sec2-2-1 i{
+        margin: 10px 0px;
+    }
+    .sec2-2-2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .sec2-2-2 i{
+        margin: 10px 0px;
+    }
+    .sec2-2-3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .sec2-2-3 i{
+        margin: 10px 0px;
+    }
+    .sec2-2-4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .sec2-2-4 i{
+        margin: 10px 0px;
+    }
+
+.section4{
+        margin: 0px 0px;
+        width: 290px;
+    }
+
+    hr{
+        width: 171px;
+    }
+
+    .section3{
+        display: flex;
+        width: 170px;
+        height: 900px;
+        position: absolute;
+        top: 1340px;
+        left: 20px;
+        padding: 50px;
+        color: black;
+        margin-left: -50px;
+    }
+    .sec3-2 h3{
+        margin: 0 0 8px;
+        padding: 8px 0px;
+    }
+    .sec3-2 h6{
+        margin: 0 0 8px;
+        font-size: 12px;
+    }
+    .sec3-2 .input{
+        width: 170px;
+        height: 35px;
+        margin: 0 0 8px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .sec3-2 select{
+        width: 195px;
+        height: 45px;
+        margin: 0 0 8px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+    .checkbox{
+        width: 280px;
+        display: flex;
+    }
+    .checkbox label{
+        width: 280px;
+        display: flex;
+        padding-bottom: 10px;
+    }
+    #range{
+        width: 125px;
+        padding: 0px 10px;
+        margin-left: 0px;
+    }
+    .range1{
+        width: 250px;
+    }
+    #range label{
+        width: 155px;
+        margin: 0 0px 0px;
+        margin-left: 0px;
+    }
+    
+    .checkbox button{
+        padding: 13px 20px;
+        width: 156px;
+        height: 48.6px;
+        margin-left: 0px;
+    }
+
+
+.section4{
+    width: 280px;
+    margin-top: 1090px;
+    margin-left: 10px;
+}
+
+
+
+ 
+    .section5{
+        width: 300px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .sec5-1{
+        display: flex;
+        flex-direction: column;
+        width: 252px;
+        margin: 20px;
+    }
+
+    .sec5-2{
+            display: flex;
+            flex-direction: column;
+            width: 252px;
+            margin-left: 16px;
+        }
+    
+    #name{
+        width: 205px;
+        height: 35px;
+        padding: 6px 12px;
+        margin-left: 16px;
+    }
+    #Email{
+        width: 205px;
+        height: 35px;
+        padding: 6px 12px; 
+        margin-left: 16px;
+    }
+    #message{
+        width: 205px;
+        height: 100px;
+        padding: 6px 12px; 
+        margin-left: 16px;
+    }
+    button{
+        width: 163px;
+        height: 48px;
+        margin-left: 16px;
+    }
+    .sec5-3{
+        width: 280px;
+    }
+    .sec5-3 h4 {
+        width: 290px;
+        margin-left: 17px;
+        margin-bottom: 15px;
+    }
+    form{
+        width: 290px;
+        margin: 0px;
+    }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1 {
+    border: 2px solid #f0f0f0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+    line-height: 27px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.nav1 p {
+    padding-right: 0;
+}
+.nav1 span{
+    text-align: right;
+}
+.nav2 ul{
+    visibility: hidden;
+    margin: 0px;
+}
+.nav2 i{
+    visibility: visible;  
+}
+.nav2 img {
+    width: 290px;
+    padding-left: 0px;
+}
+.nav2 ul{
+    display: none;
+}
+
+
+.footer{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding:60px 0px 0px;
+    margin: 0 20px;
+}
+
+
+.footercompany h1{
+  margin-top: 20px;
+}
+
+.copy{
+    width: 300px;
+}
+}

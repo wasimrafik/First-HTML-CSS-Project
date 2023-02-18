@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+    width: 100%;
+}
+
+.nav1{
+    border: 2px solid #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+    line-height: 27px;
+    padding: 8px 0px;
+    background-color: #f0f0f0;
+}
+
+.nav1 p{
+    padding-right: 200px;
+}
+.nav2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    line-height: 2.14;
+    font-weight: bolder;
+    background-color: #f0f0f0;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+
+.nav2 ul li{
+    display: inline-block; 
+}
+.nav2 ul li a:hover{
+    color: #6a572f;
+}
+
+.nav2 ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+}
+.nav2 i{
+    visibility: hidden;
+}
+.nav2 img{
+    padding-left: 110px;
+}
+.nav2 ul{
+    padding-right: 110px;
+}
+
+.nav2 button{
+    background-color: #b0914f;
+    color: white;
+    padding: 13px 20px;
+    font-weight: bolder;
+    border: none;
+}
+.nav2 button:hover{
+background-color: #6a572f;
+transition: all .8s;
+}
+.nav2 button:hover{
+    background-color: #6a572f;
+    transition: all .5s;
+}
+.sec1-img{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.511), rgba(0, 0, 0, 0.467)), url(../Images/Aboutus/background.jpg);
+    text-align: center;
+}
+.sec1-img h1{
+    padding: 120px 0px 90px;
+    font-size: 40px;
+    color: #f0f0f0;
+}
+.sec1-img a{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+.sec1-img .link{
+    color: #f0f0f0;
+    font-size: 15px;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
+/* .sec1-img:last-child .link::after{
+    content: ">";
+    color: #f0f0f0;
+} */
+
+.section2{
+    width: 1140px;
+    margin-left: 220px;
+}
+.sec2-text{
+    padding-top: 106px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.sec2-text p{
+    margin-bottom: 16px;
+    width: 730px;
+    margin-left: 265px;
+    font-size: 14px;
+    color: #7b7b7b;
+}
+.sec2-text h1{
+    margin-bottom: 16px;
+    margin-left: 135px;
+    font-size: 50px;
+}
+.sec2-text span{
+    color: #b0914f;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.sec2-line{
+    width: 40px;
+    height: 3px;
+    background-color: #b0914f;
+    margin: 0 0 50px 600px;
+}
+
+.sec2-2{
+    display: flex;
+}
+.sec2-2 img{
+   height: 330px;
+   width: 540px;
+   padding: 0 15px;
+}
+.sec2-text2{
+    text-align: center;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.sec2-text2 li{
+    list-style-type: none;
+    margin: 0 0 10px;
+    padding: 0 0 0 0px;
+    font-size: 15px;
+}
+.sec2-text2 h2{
+    font-size: 28px;
+    margin: 0 0 20px;
+}
+.sec2-text2 p{
+    font-size: 15px;
+    margin: 0 0 20px;
+    color: #7b7b7b;
+}
+.sec2-text2 li i{
+    list-style-type: none;
+    margin: 0 0 10px;
+    padding: 0 15px 0 0px;
+}
+.sec2-text2 button{
+    background-color: #b0914f;
+    color: white;
+    padding: 13px 20px;
+    border: none;
+    width: 155px;
+    height: 48.6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sec2-text2 button:hover{
+    background-color: #6a572f;
+    transition: all .5s;
+}
+
+.section3{
+    padding: 100px 0;
+    display: flex;
+    margin-left: 200px;
+}
+.sec3-1{
+    text-align: center;
+    text-align: justify;
+    width: 570px;
+    height: 316px;
+}
+.section3 .sec3-1 p{
+    margin-bottom: 36px;
+    font-size: 16px;
+}
+.sec3-1 h2{
+    margin-bottom: 16px;
+    font-size: 28px;
+    padding-top: 50px;
+}
+.sec3-1 button{
+    padding: 13px 20px;
+    width: 155px;
+    height: 48.6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.sec3-1 button:hover{
+    background-color: #b0914f;
+    color: white;
+    transition: all .5s;
+    border: none;
+}
+.sec3-2{
+    margin-left: 80px;
+}
+
+.sec4-bg{
+    width: 100%;
+    height: 400px;
+    background:url(../Images/Aboutus/background.jpg), fixed 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f0f0f0;
+}
+.sec4-box{
+    font-size: 30px;
+}
+.sec4-box .fa-wine-glass{
+    size: 50px;
+    font-size: 30px;
+    padding-left: 30px;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+.sec4-box h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.sec4-box p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+
+
+
+.section5{
+    margin: 0 200px;
+}
+.sec5-text{
+    padding-top: 106px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.sec5-text p{
+    margin-bottom: 16px;
+    width: 730px;
+    margin-left: 251px;
+    font-size: 14px;
+    color: #7b7b7b;
+}
+.sec5-text h1{
+    margin-bottom: 16px;
+    margin-left: -40px;
+    font-size: 50px;
+}
+.sec5-text span{
+    color: #b0914f;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.sec5-line{
+    width: 40px;
+    height: 3px;
+    background-color: #b0914f;
+    margin: 0 0 50px 600px;
+}
+.sec5-box1{
+    display: flex;
+    margin: 0 0 48px;
+}
+.sec5-box2{
+    display: flex;
+}
+.sec5-box1 h3{
+    margin: 0 0 16px;
+    font-size: 20px;
+}
+.sec5-box1 p{
+    margin: 0 0 16px;
+    font-size: 15px;
+}
+.sec5-box2{
+    display: flex;
+    margin: 0 0 48px;
+}
+.sec5-box2 h3{
+    margin: 0 0 16px;
+    font-size: 20px;
+}
+.sec5-box2 p{
+    margin: 0 0 16px;
+    font-size: 15px;
+}
+.sec5-last h6{
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.sec5-last a{
+    text-decoration: none;
+    color: #b0914f;
+}
+
+/* footer start here  */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding:60px 0px 0px;
+    margin: 0 135px;
+}
+
+.footertxt{
+    width: 255px;
+    height: 192px;
+}
+.footertxt h1{
+    margin: 0 0 8px;
+}
+.Footeradd{
+    width: 255px;
+    height: 194.8px;
+    text-align: center;
+    text-align: justify;
+    margin: 0 0 10px;
+    
+}
+.Footeradd h1{
+    margin: 0 0 24px;
+    
+}
+.Footeradd i{
+    color: #b0914f;
+    text-align: justify;
+    margin: 0px 8px 10px 0;
+}
+.footerquick{
+    width: 255px;
+    height: 223px;
+}
+.footerquick h1{
+    margin: 0 0 24px;
+}
+.footerquick li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #595959;
+}
+.footerquick li a:hover{
+    color: #b0914f;
+}
+.footerquick li{
+    list-style-type: none;
+    margin: 0 0 10px;
+    
+}
+.footercompany h1{
+    margin: 0 0 24px;
+}
+.footercompany a{
+    text-decoration: none;
+    color: #595959;
+}
+.footercompany a:hover{
+    color: #b0914f;
+}
+.footercompany li{
+    list-style-type: none;
+    margin: 0 0 10px;
+}
+.footercompany i{
+    color: #b0914f;
+}
+.copy{
+    width: 1425px;
+    height: 76px;
+    border-top: 1px solid #f9f9f9;
+    text-align: center;
+    padding: 24px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 325px){
+    
+
+    .section2{
+        width: 300px;
+        margin-left: 0px;
+    }
+    .sec2-text p{
+        margin-bottom: 16px;
+        width: 268px;
+        margin-left: 17px;
+        font-size: 14px;
+    }
+    .sec2-text h1{
+        width: 300px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    .sec2-text span{
+        color: #b0914f;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .sec2-line{
+        margin: 0 0 50px 145px;
+    }
+    
+    .sec2-2{
+       display: flex;
+       flex-direction: column;
+    }
+    .sec2-2 img{
+       height: 188px;
+       width: 290px;
+       padding: 0 15px;
+    }
+    .sec2-text2{
+      width: 200px;
+      font-size: 28px;
+      
+    }
+    .sec2-text2 li{
+        text-align: justify;
+        width: 280px;
+    }
+    .sec2-text2 h2{
+        width: 201px;
+        font-size: 28px;
+    }
+    .sec2-text2 p{
+        width: 237px;
+        font-size: 15px;
+        margin: 0 0 20px;
+    }
+    
+    .section3{
+        padding: 10px 0;
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .sec3-1{
+        text-align: center;
+        text-align: justify;
+        width: 300px;
+    }
+    .section3 .sec3-1 p{
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .sec3-1 h2{
+        margin-left: 20px;
+        width: 239px;
+    }
+    .sec3-1 button{
+        margin-left: 20px;
+    }
+
+    .sec3-2 img{
+        margin-top: 18px;
+        margin-left: -63px;
+        width: 290px;
+        height: 435px;
+    }
+    
+    .sec4-bg{
+        width: 320px;
+        height: 1116px;
+        background:url(../Images/Aboutus/background.jpg), fixed 50% 50%;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .section5{
+        margin: 0px;
+    }
+
+    .sec5-text p{
+        margin-bottom: 16px;
+        width: 268px;
+        margin-left: 17px;
+        font-size: 14px;
+    }
+    .sec5-text h1{width: 302px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+        font-size: 50px;
+        margin-top: 0px;
+    }
+    .sec5-text span{
+        color: #b0914f;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .sec5-line{
+        margin: 0 0 50px 135px;
+    }
+
+    .sec5-box1{
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        margin-left: 20px;
+    }
+    .sec5-box2{
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        margin-left: 20px;
+    }
+    
+    .sec5-box2{
+        display: flex;
+        margin: 0 0 48px;
+        flex-direction: column;
+        width: 290px;
+        margin-left: 20px;
+    }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1 {
+    border: 2px solid #f0f0f0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-bottom: 0.5rem;
+    line-height: 27px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.nav1 p {
+    padding-right: 0;
+}
+.nav1 span{
+    text-align: right;
+}
+.nav2 ul{
+    visibility: hidden;
+    margin: 0px;
+}
+.nav2 i{
+    visibility: visible;  
+}
+.nav2 img {
+    padding-left: 0px;
+}
+.nav2 ul{
+    display: none;
+}
+
+.footer{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding:60px 0px 0px;
+    margin: 0 20px;
+}
+
+
+.footercompany h1{
+  margin-top: 20px;
+}
+
+.copy{
+    width: 300px;
+}
+
+}
